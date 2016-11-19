@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+	font-family:frutiger; 
+	src:url("ffonts/frutigerltstdlight.ttf");
+	font-family:frutigerbold; 
+	src:url("ffonts/frutigerltstdbold.ttf");
+}  
+
+
+body { 
+	background-color: #aaa;
+	font-family:Verdana;
+}
+
+hr {
+	margin-top: 10px; 
+	border: none; 
+	border-top: 1px; 
+	color: #FFFFFF; 
+	background-color: #FFFFFF; 
+	height: 3px;
+	size:5;	
+}
+
+.headerLogo {
+	margin-left: 20px; 
+	margin-right: 100px; 
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	height: 90px;	
+}
+
+.content {
+	margin-left:80;
+	margin-top:30px;
+}
+
+h4 {
+	margin-bottom:5px;
+	margin-top:20px;
+}
+
+td.auswahl {
+	padding-right:120px;	
+}
+
+.logoutIMG  {
+	border-style:none;
+	width:100px;
+}
+	
