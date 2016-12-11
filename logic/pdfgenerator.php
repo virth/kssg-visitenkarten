@@ -72,8 +72,8 @@
 				$recipient = trim($recipients[$i]);
 				$pdfGenerator = new pdfGenerator();
 				$pdfGenerator->debugToConsole("send mail to [$recipient]");
-				$absendername = "VK PDF Generator";
-				$absendermail = "VK.Generator@e-druck.ch";
+				$absendername = "Visitenkarten Bestellung";
+				$absendermail = "bestellungen@kssg-visitenkarten.ch";
 				$betreff = "Bestellung";
 				$text = "Guten Tag \n\nSoeben ist eine Bestellung von User $user eingegangen. \n\nMenge: $menge \n\nPDF: http://kssg-visitenkarten.ch/vcards/".urlencode($filename);
 			
